@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
+const { db } = require('./config');
 const schema = require('./schemas/schema');
 const { ApolloServer } = require('apollo-server-express');
 const express = require('express');
 const cors = require('cors');
 
 // Connect to database
-const mongoUri = 'mongodb://localhost:27017/graphql-test';
+const mongoUri = `mongodb://${db.user}:${db.pass}@${db.host}:${db.port}/${db.name}`;
 mongoose.connect(
     mongoUri, {
         useNewUrlParser: true,

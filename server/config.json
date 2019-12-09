@@ -1,0 +1,9 @@
+{
+  "db": {
+    "name": "graphql-test",
+    "host": "localhost",
+    "port": 27017,
+    "user": "",
+    "pass": ""
+  }
+}
