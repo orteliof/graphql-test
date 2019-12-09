@@ -8,7 +8,8 @@
     "cors": "^2.8.5",
     "graphql": "^14.5.8",
     "lodash": "^4.17.15",
-    "mongoose": "^5.7.14"
+    "mongoose": "^5.7.14",
+    "express": "^4.17.1"
   },
   "scripts": {
     "start": "nodemon app",
